@@ -5,3 +5,123 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --------
+top banner styel
+  --------- */
+
+.banner-bangrount {
+  width: 1321px;
+  height: 646px;
+  background: #161616;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.top-banner {
+  display: flex;
+}
+
+.banner-text {
+  width: 531px;
+  height: 424px;
+  margin: 111px 24px 111px 106px;
+}
+.banner-titel {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  /* or 114% */
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.banner-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.banner-link-button {
+  text-decoration: none;
+  padding: 16px 25px;
+  width: 187px;
+  height: 56px;
+  color: #ffffff;
+  background: #dd0000;
+  border-radius: 5px;
+}
+.banner-img img {
+  width: 581px;
+  height: 613px;
+  margin-top: 33px;
+  background: url(kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png);
+}
+
+/* - - - - -
+    blog style strad 
+    - - - - - - - */
+.blog-continer {
+  width: 1321px;
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.blogs {
+  width: 312px;
+  height: 312px;
+  background: #161616;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogs-barron {
+  width: 252px;
+  height: 252px;
+}
+.button-link {
+  width: 252px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-link-activ {
+  width: 252px;
+  height: 64px;
+  background: #dd0000;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-link a {
+  text-decoration: none;
+  color: #161616;
+}
+.button-link-activ a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.blog {
+  box-sizing: border-box;
+  position: absolute;
+  width: 312px;
+  height: 362px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
