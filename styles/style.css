@@ -1,0 +1,7 @@
+/* import front */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap");
+
+/* utility stylesheet */
+body {
+  font-family: "Poppins", sans-serif;
+}
