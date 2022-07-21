@@ -86,7 +86,6 @@ top banner styel
   grid-template-rows: 362px 362px 362px 362px;
   grid-template-columns: 312px repeat(3, 1fr);
   grid-gap: 24px;
-
 }
 
 .d {
@@ -100,7 +99,6 @@ top banner styel
 .j {
   grid-column: 3/2;
 }
-
 
 .blogs {
   width: 312px;
@@ -150,53 +148,67 @@ top banner styel
 }
 
 .blog {
-  box-sizing: border-box;
-  position: absolute;
   width: 312px;
   height: 362px;
   border: 1px solid #e8e8e8;
   border-radius: 10px;
 }
 
-
-
 /* -------------------
       footer style
       ------------------- */
 
 .footer-content {
+  margin-top: 130px;
   width: 100%;
   height: 444px;
   background: #161616;
-
+  display: flex;
+  flex-direction: column;
+}
+.f-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
 }
 
 .footer-content h3 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  line-height: 60px;
   /* identical to box height */
   text-align: center;
-  color: #FFFFFF;
-  text-align: center;
+  color: #ffffff;
+  margin-top: 130px;
+  margin-bottom: 0;
 }
 
 .socials a i {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 hr {
   width: 1320px;
   height: 0px;
-  left: 140px;
-  top: 2330px;
-
+  margin-top: 50px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .f-menu li a {
   text-decoration: none;
   color: white;
+}
+
+.socials {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
 }
