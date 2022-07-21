@@ -38,8 +38,6 @@ top banner styel
 .banner-titel {
   font-weight: 700;
   font-size: 70px;
-  line-height: 80px;
-  /* or 114% */
   color: #ffffff;
   margin-bottom: 0;
   margin-top: 0;
@@ -47,7 +45,6 @@ top banner styel
 
 .banner-p {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #ffffff;
@@ -164,6 +161,7 @@ top banner styel
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 .Match-name {
   width: 202px;
@@ -240,4 +238,112 @@ hr {
   justify-content: center;
   gap: 30px;
   list-style: none;
+}
+
+@media only screen and (max-width: 688px) {
+  .banner-bangrount {
+    width: 100vh;
+    height: 537px;
+    background: #161616;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+  .top-banner {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-text {
+    width: 258px;
+    height: 178px;
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner-titel {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+  }
+  .banner-p {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: noweap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner-link-button {
+    padding: 16px 25px;
+    font-size: 25px;
+    width: 187px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-img {
+    width: 233px;
+    height: 245px;
+    margin-top: 30px;
+  }
+  .banner-img img {
+    width: 233px;
+    height: 245px;
+    background: url(kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png);
+  }
+  .blog-continer {
+    width: 100%;
+    margin-top: 130px;
+  }
+
+  .blogess {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+
+    grid-gap: 24px;
+    justify-items: center;
+  }
+  .d {
+    grid-column: 1/-1;
+  }
+
+  .g {
+    grid-column: 1/-1;
+  }
+
+  .j {
+    grid-column: 1/-1;
+  }
+  .button-link {
+    width: 200px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+  }
+  .blogs {
+    width: 312px;
+    height: 260px;
+    background: none;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
