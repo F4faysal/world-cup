@@ -83,7 +83,7 @@ top banner styel
 
 .blogess {
   display: grid;
-  grid-template-rows: 362px 362px 362px 362px;
+  grid-template-rows: 250px 250px 250px 250px;
   grid-template-columns: 312px repeat(3, 1fr);
   grid-gap: 24px;
 }
@@ -149,48 +149,38 @@ top banner styel
 
 .blog {
   width: 312px;
-  height: 362px;
+  height: 242px;
   border: 1px solid #e8e8e8;
   border-radius: 10px;
-}
-.trnsfot-batton {
-  width: 100px;
-  height: 32px;
   display: flex;
-  border: 1px solid #161616;
-  border-radius: 5px;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  margin: 24px 0 0 20px;
 }
-.trnsfot-batton a {
-  text-decoration: none;
-  color: #161616;
-  font-weight: 500;
-  font-size: 16px;
-}
-.trnsfot-live-titel {
-  width: 272px;
-  height: 54px;
-  margin: 15px 0 0 20px;
-}
-.trnsfot-live-titel h3 {
-  font-weight: 600;
-  font-size: 18px;
-
-  color: #161616;
-}
-.transfer-icon {
-  width: 143px;
-  height: 26px;
+.flg-img {
+  width: 252px;
+  height: 56.18px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 15px 0 0 20px;
+  justify-content: space-between;
 }
-.transfer-icon p {
+.Match-name {
+  width: 202px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.Match-name h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #161616;
+}
+.Match-name h3 {
   font-weight: 400;
   font-size: 16px;
+  text-align: center;
+  color: #4d4d4d;
 }
 
 /* -------------------
