@@ -226,7 +226,6 @@ top banner styel
 }
 
 .footer-content h3 {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -262,19 +261,9 @@ hr {
   gap: 30px;
   list-style: none;
 }
-*
-  -------------------
-  media
-  Quarisw
-  mobile
-  device
-  ----------------------
-  */
-  @media
-  only
-  screen
-  and
-  (max-width: 688px) {
+/* media Quarisw
+     mobile device */
+@media only screen and (max-width: 688px) {
   .banner-bangrount {
     width: 95%;
     height: 537px;
@@ -299,6 +288,11 @@ hr {
     flex-direction: column;
   }
   .banner-titel {
+    width: 228px;
+    height: 66px;
+  }
+  .banner-titel h1 {
+    line-height: 33px;
     font-weight: 700;
     font-size: 25px;
     text-align: center;
@@ -306,8 +300,8 @@ hr {
   .banner-p {
     width: 258px;
     height: 48px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .banner-p p {
@@ -325,10 +319,10 @@ hr {
     margin: 0;
   }
   .banner-link-button {
-    padding: 16px 25px;
-    font-size: 25px;
-    width: 60%;
-    height: 56px;
+  }
+  .banner-link-button a {
+    padding: 10px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -405,10 +399,10 @@ hr {
     justify-content: center;
     gap: 10px;
     list-style: none;
+    padding-left: 0;
   }
 
   .footer-content h3 {
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
