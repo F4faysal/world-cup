@@ -503,7 +503,6 @@ hr {
     margin-top: 33px;
     background: url(kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png);
   }
-
   /* blog */
   .blog-continer {
     width: 100%;
@@ -524,6 +523,7 @@ hr {
     height: 100%;
     align-items: center;
     justify-content: center;
+    justify-content: space-between;
   }
   .blogs {
     width: 80%;
@@ -545,14 +545,12 @@ hr {
   .button-link {
     width: 200px;
     height: 64px;
-    background: #ffffff;
+    background: #f9f7f7;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
-    margin-left: 25px;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
   }
 
   .footer-content {
