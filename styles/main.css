@@ -34,8 +34,16 @@ top banner styel
   height: 424px;
   margin: 111px 24px 111px 106px;
 }
-
 .banner-titel {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  /* or 114% */
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.banner-titel h1 {
   font-weight: 700;
   font-size: 70px;
   color: #ffffff;
@@ -55,10 +63,13 @@ top banner styel
 }
 
 .banner-link-button {
-  text-decoration: none;
-  padding: 16px 25px;
   width: 187px;
   height: 56px;
+}
+.banner-link-button a {
+  text-decoration: none;
+  padding: 16px 25px;
+
   color: #ffffff;
   background: #dd0000;
   border-radius: 5px;
